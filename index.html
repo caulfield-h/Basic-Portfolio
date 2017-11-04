@@ -5,22 +5,23 @@
     <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+    <div class="bg"></div>
     <header>
+        <div class="namebar">
+            <h1>Owen Geoghegan</h1>
+        </div>
         <nav>
-            <a class="nav" href="about.html">About</a>
+            <a class="nav" href="index.html">About</a>
             <a class="nav" href="portfolio.html">Portfolio</a>
             <a class="nav" href="contact.html">Contact</a>
         </nav>
     </header>
     <article>
         <section>
-            <div class="name">
-                <h1>Owen Geoghegan</h1>
-            </div>
             <div class="aboutme">
                 <img src="assets/images/prof.png" alt="profile pic" height="120px" width="120px">
                 <p>My name is Owen Geoghegan, I'm 26 years old, and was born and raised in San Diego, California. My background is in commercial insurance, however, I am currently studying to become a full-stack web developer. This page features my personal
@@ -31,20 +32,27 @@
                     complete CV.
                 </p>
             </div>
-            <aside class="socialmedia">
-                <a href="https://www.linkedin.com/in/owen-geoghegan-5186047b/">
-                    <img src="assets/images/link.png" alt="LinkedIn" style="width:42px;height:42px;border:0;">
-                </a>
-                <a href="https://github.com/caulfield-h">
-                    <img src="assets/images/git.png" alt="GitHub" style="width:42px;height: 42px; border:0;">
-                </a>
-                <a href="https://stackexchange.com/users/12168325/owen">
-                    <img src="assets/images/stack.png" alt="Stack Overflow" style="width:42px;height: 42px; border:0;">
-                </a>
-            </aside>
-
+            <div class="asidecontainer">
+                <aside class="socialmedia">
+                    <h3>Connect with Me:</h3>
+                    <a href="https://www.linkedin.com/in/owen-geoghegan-5186047b/">
+                        <img src="assets/images/link.png" alt="LinkedIn" style="width:42px;height:42px;border:0;">
+                    </a>
+                    <a href="https://github.com/caulfield-h">
+                        <img src="assets/images/git.png" alt="GitHub" style="width:42px;height: 42px; border:0;">
+                    </a>
+                    <a href="https://stackexchange.com/users/12168325/owen">
+                        <img src="assets/images/stack.png" alt="Stack Overflow" style="width:42px;height: 42px; border:0;">
+                    </a>
+                </aside>
+            </div>
         </section>
     </article>
+    <footer>
+        <small class="copy">
+            Copyright &copy 2016 Owen Geoghegan
+        </small>
+    </footer>
 </body>
 
 </html>
